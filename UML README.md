@@ -46,5 +46,5 @@ of the components within a system.
 
 7)Deployment Diagram
 
-How will the software be deployed in a project 
+How like the software be deployed in a project, 
 like Waterfall method
