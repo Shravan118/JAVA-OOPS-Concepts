@@ -1,8 +1,7 @@
 // program of encapsulation
 
 
-class Encapsulate {
-   
+class Encapsulate { 
     private String ShravanName;
     private int ShravanRoll;
     private int ShravanAge;
