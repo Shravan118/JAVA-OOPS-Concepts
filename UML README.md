@@ -3,6 +3,16 @@ My Learnings in CSS corp
 
 Unified Modeling Language (UML)
 
+The Unified Modeling Language (UML) offers a way to 
+visualize a system's architectural blueprints in a diagram
+– Any activities (jobs)
+– Individual components of the system
+• And how they can interact with other software components.
+– How the system will run
+– How entities interact with others (components and interfaces)
+– External user interface
+
+
 1) USE CASE DIAGRAM
 
 The purpose of a use case diagram in UML is to demonstrate the 
