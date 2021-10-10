@@ -9,6 +9,8 @@ The Java application calls JDBC classes and interfaces to submit SQL statements 
 he JDBC API is implemented through the JDBC driver
 
 -->There are 4 types of JDBC drivers
+
+
     Type-1 driver or JDBC-ODBC bridge driver.
     Type-2 driver or Native-API driver.
     Type-3 driver or Network Protocol driver.
@@ -47,14 +49,18 @@ he JDBC API is implemented through the JDBC driver
           ->using [forName()] method of the class named Class.
 
          ---The [ registerDriver() ] method accepts an object of the Driver class, it registers the specified Driver with the DriverManager.
+          
           ( Driver myDriver = new com.mysql.jdbc.Driver();
             DriverManager.registerDriver(myDriver);  )
 
          ---The [ forName() ] method loads the specified class into the memory and thus it automatically gets registered.
-            ( Class.forName("com.mysql.jdbc.Driver"); )
+           
+           ( Class.forName("com.mysql.jdbc.Driver"); )
 
        ->Get Connection: Get the Connection object using the getConnection() method. 
-          [ getConnection() ]
+         
+         [ getConnection() ]
+         
           This method accepts the database URL (an address that points to your database),
           Username and, password as parameters and, returns a connection object.
 
